@@ -24,10 +24,14 @@
               "src/assets"
             ],
             "styles": [
-              "node_modules/bootstrap/dist/css/bootstrap.min.css",
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/bootstrap/dist/css/boostrap.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/popper.js/dist/popper.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -120,10 +124,6 @@
           }
         }
       }
-    }
-  },
-  "defaultProject": "angularCRUD",
-  "cli": {
-    "analytics": "e369d0b1-fb09-4a02-b4f9-c5f8f3c24d8d"
-  }
+    }},
+  "defaultProject": "angularCRUD"
 }
